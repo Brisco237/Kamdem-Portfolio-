@@ -9,13 +9,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title>Kamdem | My Portfolio 🔥 </title>
-    <link rel="shortcut icon" href="images/profile3.jpg" type="image/x-icon">
+    <title>Kamdem Brice | Portfolio </title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
 </head>
-<body>
-    <div class="container-fluid bg-dark">
+<body id="section1">
+    <div id="stars1"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+    <div class="container-fluid">
         <div class="row">
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg fixed-top">
                 <div class="container">
                     <h1><a class="navbar-brand text-white" href="index.html"><i class="fa-solid fa-ankh"></i> <strong>Kamdem
                     Brice</strong></a></h1>
@@ -26,7 +29,7 @@
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active text-white" aria-current="page" href="#home"><i
+                                <a class="nav-link active text-white" aria-current="page" href="index.html"><i
                                         class="fa-solid fa-house"></i> Home</a>
                             </li>
                             <li class="nav-item">
@@ -40,107 +43,113 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#contact-section" id="contact"><i class="fa-solid fa-phone"></i>
-                                    Contact</a>
+                                    Contact
+                                </a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
             <div class="col-md-8 offset-md-2 text-center" id="home-section">
-                <h1>Hello, Moi C'est Kamdem Je Suis Un Dev Fullstack : <span id="element"></span></h1>
+                <h1>Hey, Moi C'est Kamdem Je Suis Un Dev Fullstack & Mobile : <span id="element"></span></h1>
                 <h6 class="p-5" data-aos="fade-right" data-aos-duration="3000">
                     👋 Salut et bienvenue sur mon portfolio !
                     <br>
-                    💻 Je suis un développeur passionné par le web et les applications modernes.
+                    💻 Je suis un développeur passionné par le web et les applications mobile.
                     <br>
-                    🚀 J’aime transformer des idées en projets interactifs et performants.
+                     J’aime transformer des idées en projets interactifs et performants.
                     <br>
-                    🎨 Mon objectif : allier design, technologie et expérience utilisateur.
-                    <br>
-                    📩 Découvre mes projets et n’hésite pas à me contacter !
+                    Découvre mes projets et n’hésite pas à me contacter !
                 </h6> 
-                <div class="btn-homesection">
-                    <a href="#projects">View projects</a> 
-                    <a href="#contact-section">Contact me now</a>
+                <div class="btn-homesection mb-5">
+                    <a href="#projects"><i class="fa-solid fa-gear"></i> View projects</a> 
+                    <a href="#contact-section"><i class="fa-solid fa-phone"></i> Contact me now</a>
                 </div>
+                <hr style="color:white;">
             </div>
-        </div>
-        <div class="container">
-            <div class="row" id="aboutme"  data-aos="fade-right" data-aos-duration="3000">
-                <div class="col-md-5 text-center" id="aboutme-photo">
-                    <img src="images/profile3.jpg" id="img-profile">
-                    <h4 class="sub-name">kamdem Brice</h4>
-                    <p>Yaoundé, Cameroun</p><br>
-                    <p><i class="fa-solid fa-phone"></i> Tel : +237-691-362-532</p><br>
-                    <p><i class="fa-solid fa-envelope"></i> Email : Kamdembrice770@gmail.com</p><br>
-                    <p>
-                        <i class="fa-2x fab fa-whatsapp"></i>
-                        <i class="fa-2x fab fa-telegram"></i>
-                        <i class="fa-2x fab fa-x-twitter"></i>
-                        <i class="fa-2x fab fa-youtube"></i>
-                        <i class="fa-2x fab fa-facebook-square"></i>
-                    </p>
-                    <br>
-                </div>
-                <div class="col-md-1"></div>
-                <div class="col-md-6" id="aboutme-text">
-                    <div class="titre mt-5">
-                        <i class="fa-solid fa-user" id="icone-titre"></i>
-                        <h2>ABOUT ME</h2>
-                    </div>
-                    <p class="description" data-aos="fade-up" data-aos-duration="3000">
-                        Je m’appelle Kamdem Brice 🔥, passionné par le développement web et les technologies modernes.
-                        Actuellement, je me spécialise dans le backend avec Django, tout en maîtrisant HTML, CSS, Bootstrap et PostgreSQL.
-                        Mon parcours m’a appris la rigueur 😎, l’esprit critique et la curiosité intellectuelle.
-                        Aujourd’hui, je combine ces compétences avec ma créativité pour concevoir des applications web modernes et performantes.
-                        J’aime relever des défis techniques, apprendre de nouvelles technologies et améliorer en continu mes projets.
-                        Je consacre beaucoup de temps à expérimenter, créer et perfectionner mes compétences.
-                        Mon objectif est de devenir un développeur complet, capable de concevoir aussi bien l’architecture backend que
-                        l’expérience utilisateur frontend.💬
-                        Au-delà du code, je suis motivé par le désir de construire des solutions utiles, accessibles et durables.
-                        Je crois que la technologie doit être au service de l’innovation et de l’éducation.
-                        Dans mes projets, je mets toujours l’accent sur la qualité, la clarté du code et l’expérience utilisateur.
-                        Je suis ouvert aux collaborations, aux échanges d’idées et aux opportunités de croissance.
-                        Bienvenue sur mon portfolio : un espace qui reflète ma passion, mon travail et mon ambition. 👌🏽🤙🏽
-                    </p>
-                    <div class="titre mt-5"><i class="fa-solid fa-gear" id="icone-titre"></i>
-                        <h2>SKILLS</h2>
-                    </div>
-                    <div class="languages mt-2" data-aos="fade-up" data-aos-duration="3000">
+            <div class="container">
+                <div class="row" id="aboutme" data-aos="fade-right" data-aos-duration="3000">
+                    <div class="col-md-5 text-center" id="aboutme-photo">
+                        <img src="images/profile.webp" id="img-profile">
+                        <h4 class="sub-name">kamdem Brice</h4>
+                        <p>Yaoundé, Cameroun</p><br>
+                        <p><i class="fa-solid fa-phone"></i> Tel : +237-691-362-532</p><br>
+                        <p><i class="fa-solid fa-envelope"></i> Email : Kamdembrice770@gmail.com</p><br>
                         <p>
-                            <i class="fa-2x fab fa-html5"></i>
-                            <i class="fa-2x fab fa-css3-alt"></i>
-                            <i class="fa-2x fab fa-js"></i>
-                            <i class="fa-2x fab fa-react"></i>
-                            <i class="fa-2x fab fa-node-js"></i>
-                            <i class="fa-2x fab fa-npm"></i>
-                            <i class="fa-2x fab fa-git-alt"></i>
-                            <i class="fa-2x fab fa-github"></i>
-                            <i class="fa-2x fab fa-python"></i>
-                            <i class="fa-2x fab fa-bootstrap"></i>
-                            <i class="fa-2x fab fa-figma"></i>
-                            <i class="fa-2x fab fa-windows"></i>
-                            <i class="fa-2x fab fa-linux"></i>
+                            <i class="fab fa-whatsapp"></i>
+                            <i class="fab fa-telegram"></i>
+                            <i class="fab fa-x-twitter"></i>
+                            <i class="fab fa-youtube"></i>
+                            <i class="fab fa-facebook-square"></i>
                         </p>
+                        <br>
                     </div>
-                    <div class="titre mt-5"><i class="fa-solid fa-bucket" id="icone-titre"></i>
-                        <h2>EXPERIENCES</h2>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-6" id="aboutme-text">
+                        <div class="titre mt-5">
+                            <i class="fa-solid fa-user" id="icone-titre"></i>
+                            <h2>ABOUT ME</h2>
+                        </div>
+                        <p class="description mb-5" data-aos="fade-up" data-aos-duration="3000">
+                            Je m’appelle Kamdem Brice, passionné par le développement Web & Mobile.
+                            Spécialiste dans backend et frontend avec Django et les techonologies javascript(nextjs etc..), tout en
+                            maîtrisant HTML, CSS, Bootstrap et PostgreSQL.
+                            Mon parcours m’a appris la rigueur, l’esprit critique et la curiosité intellectuelle.
+                            Aujourd’hui, je combine ces compétences avec ma créativité pour concevoir des applications web modernes
+                            et performantes.
+                            J’aime relever des défis techniques, apprendre de nouvelles technologies et améliorer en continu mes
+                            projets.
+                            Je consacre beaucoup de temps à expérimenter, créer et perfectionner mes compétences.
+                            Mon objectif est de devenir un développeur complet, capable de concevoir aussi bien l’architecture
+                            backend que
+                            l’expérience utilisateur frontend.
+                            Au-delà du code, je suis motivé par le désir de construire des solutions utiles, accessibles et
+                            durables.
+                            Je crois que la technologie doit être au service de l’innovation et de l’éducation.
+                            Dans mes projets, je mets toujours l’accent sur la qualité, la clarté du code et l’expérience
+                            utilisateur.
+                            Je suis ouvert aux collaborations, aux échanges d’idées et aux opportunités de croissance.
+                            Bienvenue sur mon portfolio : un espace qui reflète ma passion, mon travail et mon ambition.
+                        </p>
+                        <a href="#contact-section" id="contact-aboutme"><i class="fa-solid fa-phone"></i> Contact me now</a>
+                        <div class="titre mt-5"><i class="fa-solid fa-gear" id="icone-titre"></i>
+                            <h2>SKILLS</h2>
+                        </div>
+                        <div class="languages mt-2" data-aos="fade-up" data-aos-duration="3000">
+                            <p>
+                                <i class="fa-2x fab fa-html5"></i>
+                                <i class="fa-2x fab fa-css3-alt"></i>
+                                <i class="fa-2x fab fa-js"></i>
+                                <i class="fa-2x fab fa-react"></i>
+                                <i class="fa-2x fab fa-node-js"></i>
+                                <i class="fa-2x fab fa-npm"></i>
+                                <i class="fa-2x fab fa-git-alt"></i>
+                                <i class="fa-2x fab fa-github"></i>
+                                <i class="fa-2x fab fa-python"></i>
+                                <i class="fa-2x fab fa-bootstrap"></i>
+                                <i class="fa-2x fab fa-figma"></i>
+                                <i class="fa-2x fab fa-windows"></i>
+                                <i class="fa-2x fab fa-linux"></i>
+                            </p>
+                        </div>
+                        <div class="titre mt-5"><i class="fa-solid fa-bucket" id="icone-titre"></i>
+                            <h2>EXPERIENCES</h2>
+                        </div>
+                        <div class="experience1 mt-2">
+                            <i class="fa-solid fa-wifi fa-2x"></i>
+                            <p>Tech Innovators Inc. <br> Software Developer</p>
+                        </div>
+                        <div class="experience1 mt-2">
+                            <i class="fa-solid fa-house fa-2x"></i>
+                            <p>Digital Solutions. <br> Web Developer</p>
+                        </div>
                     </div>
-                    <div class="experience1 mt-2">
-                        <i class="fa-solid fa-wifi fa-2x"></i>
-                        <p>Tech Innovators Inc. <br> Software Developer</p>
-                    </div>
-                    <div class="experience1 mt-2">
-                        <i class="fa-solid fa-house fa-2x"></i>
-                        <p>Digital Solutions. <br> Web Developer</p>
-                    </div>
-                
-                </div> 
+                </div>
             </div>
         </div>
         <div class="row mb-3 mt-5 bg-light pb-5" id="skills-section" data-aos="fade-up" data-aos-duration="2000">
             <div class="row text-center mt-5" id="skills">
-                <div class="col-md-8 offset-md-2">
+                <div class="col-md-12 text-center">
                     <h1>SKILLS & TECHNOLOGIES 🎯</h1><br>
                     <h6>Je suis passionné par les nouvelles technologies et j'apprends constament
                         pour rester concurrent et etre a jour sur le marché de l'informatique en 
@@ -150,30 +159,41 @@
                     <h2>< All my tools /></h2>
                 </div>
             </div>
-            <div class="row text-center mt-4" id="technos" data-aos="fade-up" data-aos-duration="3000">
-                <div class="col-md-12">
-                    <img src="images/html2.png" class="img-fluid">
-                    <img src="images/css.png" class="img-fluid">
-                    <img src="images/js.png" class="img-fluid">
-                    <img src="images/django.png" class="img-fluid">
-                    <img src="images/git.png" class="img-fluid">
-                    <img src="images/github.png" class="img-fluid">
-                    <img src="images/vscode.png" class="img-fluid">
-                    <img src="images/figma.jfif" class="img-fluid">
-                    <img src="images/python.png" class="img-fluid">
-                    <img src="images/react.png" class="img-fluid">
-                    <img src="images/postgresql.png" class="img-fluid">
-                    <img src="images/postman.png" class="img-fluid">
+            <div class="row text-center mt-4" id="technos">
+                <div class="col-md-12" id="frameworks">
+                    <i class="fa-brands fa-react fa-2x"></i>
+                    <i class="fa-brands fa-node-js fa-2x"></i>
+                    <i class="fa-brands fa-bootstrap fa-2x"></i>
+                    <i class="fa-brands fa-python fa-2x"></i>
+                    <i class="fa-brands fa-html5 fa-2x"></i>
+                    <i class="fa-brands fa-css3-alt fa-2x"></i>
+                    <i class="fa-brands fa-js fa-2x"></i>
+                    <i class="fa-brands fa-github fa-2x"></i>
+                    <i class="fa-brands fa-git-alt fa-2x"></i>
+                    <i class="fa-brands fa-gitlab fa-2x"></i>
+                    <i class="fa-brands fa-figma fa-2x"></i>
+                    <i class="fa-solid fa-database fa-2x"></i>
+                    <i class="fa-solid fa-server fa-2x"></i>
+                    <i class="fa-solid fa-code fa-2x"></i>
+                    <i class="fa-solid fa-terminal fa-2x"></i>
+                    <i class="fa-solid fa-laptop-code fa-2x"></i>
+                    <i class="fa-brands fa-android fa-2x"></i>
+                    <i class="fa-brands fa-apple fa-2x"></i>
+                    <i class="fa-brands fa-chrome fa-2x"></i>
+                    <i class="fa-brands fa-firefox fa-2x"></i>
+                    <i class="fa-brands fa-edge fa-2x"></i>
+                    <i class="fa-brands fa-npm fa-2x"></i>
+                    <i class="fa-brands fa-yarn fa-2x"></i>
                 </div>
             </div>
-            <div class="row text-center mt-5" data-aos="fade-up" data-aos-duration="2500">
+            <div class="row text-center mt-5">
                 <h2>< Mes services /></h2>
                 <p>Ce que je peux faire pour vous.</p>
                 <div class="col-md-4 mt-2">
                     <div class="card p-3">
                         <i class="fa-solid fa-server fa-3x  mb-3"></i>
                         <div class="card-body">
-                            <h5 class="card-title fw-bold">Développement Backend Django</h5>
+                            <h5 class="card-title fw-bold">Développement Backend</h5>
                             <p class="card-text text-muted">
                                 Création d’applications web puissantes et sécurisées avec Django, PostgreSQL et JavaScript.
                             </p>
@@ -230,7 +250,7 @@
                     <div class="card p-3">
                         <i class="fa-solid fa-palette fa-3x text-danger mb-3"></i>
                         <div class="card-body">
-                            <h5 class="card-title fw-bold">Expérience Utilisateur & Design Moderne</h5>
+                            <h5 class="card-title fw-bold">Design Moderne</h5>
                             <p class="card-text text-muted">
                                 Création d’interfaces élégantes, responsives et intuitives pour offrir une expérience fluide sur tous
                                 les appareils.
@@ -247,22 +267,22 @@
                     et apporter de la valeur ajouter dans le vécu de toutes personnes désirant faire usage des sciences de l'informatique.
                 </h6>
             </div>
-            <div class="row mt-5">
-                <div class="col-md-4 col-sm-6 text-center mb-2" data-aos="fade-left" data-aos-duration="3000">
+            <div class="row mt-5 text-center" style="margin:auto;">
+                <div class="col-md-4 col-sm-12 mb-2">
                     <div class="card p-3 h-100">
-                        <div class="card-img-top"><img src="images/projet1.JPG" class="img-fluid"></div>
-                        <div class="card-title mt-4"><h5>Application web dynamique - Kama.blog</h5></div>
+                        <div class="card-img-top"><img src="images/projet1.webp" class="img-fluid"></div>
+                        <div class="card-title mt-4"><h5>Application web dynamique - Kama.blog Version1</h5></div>
                         <div class="card-text">
-                            <p>Construit en avec un backend solide en django, kama.blog est un blog de 
+                            <p>Construit en avec un backend solide, kama.blog est un blog de 
                                 publication d'articles d'histoire et de contenue sur la tech en générale 
                                 avec un rendu adéquat pour une lecture et un apprentissage succulent.
                                 Intégré avec la librairie PDFJS, elle permet le partage des pdf et la lecture
-                                directement sur le site.🙂
+                                directement sur le site.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 text-center mb-2" data-aos="fade-up" data-aos-duration="3000">
+                <div class="col-md-4 col-sm-12 mb-2">
                     <div class="card p-3 h-100">
                         <div class="card-img-top"><img src="images/projet2.JPG" class="img-fluid"></div>
                         <div class="card-title mt-4"><h5>Application web - YOouk</h5></div>
@@ -272,12 +292,12 @@
                                 Text to speech), et une accessibilité aux Pdfs scannés avec l'OCR(Optical Character Recognition)
                                 de tesseract ce qui elargie le champ d'exploitation de vos livre numérique.
                                 et pour le suivies de vos lecture j'integre aussi avec DjangoAllauth une possibilié
-                                de se connecter sur YOouk avec votre google de facon fiable et sécurisé. 👽👾
+                                de se connecter sur YOouk avec votre google de facon fiable et sécurisé.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 text-center" data-aos="fade-right" data-aos-duration="3000">
+                <div class="col-md-4 col-sm-12">
                     <div class="card p-3 h-100">
                         <div class="card-img-top"><img src="images/projet3.JPG" class="img-fluid"></div>
                         <div class="card-title mt-4"><h5>Portflio Dessinateur - Mr.S</h5></div>
@@ -286,13 +306,40 @@
                                 l'accessibilité de ce portfolio qui permet la présentation des dessins 
                                 de l'artiste, avec des prix, une description tout ceci grace a une base 
                                 de données en SQLite qui stocke les dessins de l'artiste et un JavaScript
-                                pour plus de fluidité avec la librairie Apine Js. 🖊🖋🖌</p>
+                                pour plus de fluidité avec la librairie Apine Js.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 mt-2">
+                    <div class="card p-3 h-100">
+                        <div class="card-img-top"><img src="images/projet4.webp" class="img-fluid"></div>
+                        <div class="card-title mt-4"><h5>Kama-Blog</h5></div>
+                        <div class="card-text">
+                            <p>Kama-Blog est une application web développée, conçue pour permettre la création, la gestion et la publication d’articles de manière fluide et structurée.
+                                Ce projet met en œuvre une architecture backend robuste intégrant l’authentification des utilisateurs, la gestion des rôles et permissions, ainsi que l’administration complète du contenu.
+                                Kama-Blog reflète ma maîtrise des fondamentaux du développement backend, notamment la conception de modèles, l’utilisation des vues basées sur les classes (CBV), et l’intégration avec une base de données relationnelle.
+                                Ce projet illustre également ma capacité à concevoir des applications évolutives, propres et maintenables, en respectant les bonnes pratiques du développement web.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 mt-2">
+                    <div class="card p-3 h-100">
+                        <div class="card-img-top"><img src="images/projet5.JPG" class="img-fluid"></div>
+                        <div class="card-title mt-4"><h5>YeumMboa | Application Mobile</h5></div>
+                        <div class="card-text">
+                            <p>YeumMboa est une application éducative interactive dédiée à la découverte et à la valorisation du patrimoine historique, culturel et géographique du Cameroun.
+                                Codé en React native, elle propose une approche ludique basée sur des quiz dynamiques, permettant aux utilisateurs de tester et d’approfondir leurs connaissances sur le territoire national, les lieux de mémoire, les sites archéologiques et les grandes figures historiques.
+                                L’application intègre des fonctionnalités avancées telles que l’interaction avec des cartes géographiques (SVG), la localisation des régions, départements et arrondissements, ainsi qu’un système de progression qui rend l’apprentissage immersif et engageant.
+                                Ce projet s’inscrit dans une vision plus large : utiliser le numérique comme levier d’éveil identitaire et de transmission du savoir.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container text-center mt-5">
+            <div id="stars1"></div>
+            <div id="stars2"></div>
+            <div id="stars3"></div>
             <section id="testimonials" class="p-5 bg-light" data-aos="fade-right" data-aos-duration="2000">
                 <div class="container">
                     <div class="text-center mb-5">
@@ -304,7 +351,7 @@
                         <div class="col-md-4">
                             <div class="card h-100 shadow-sm border-0 text-center p-4">
                                 <i class="fa-solid fa-user mb-2"></i>
-                                <p class="text-muted">"Brice a développé mon site avec professionnalisme et créativité. Il comprend
+                                <p class="text-muted">"Kamdem a développé mon site avec professionnalisme et créativité. Il comprend
                                     vite et livre dans les délais !"</p>
                                 <h6 class="fw-bold mb-0">– Mr Sirkoulou sylvestre, artiste dessinateur</h6>
                             </div>
@@ -322,7 +369,7 @@
                         <div class="col-md-4">
                             <div class="card h-100 shadow-sm border-0 text-center p-4">
                                 <i class="fa-solid fa-user mb-2"></i>
-                                <p class="text-muted">"Brice a su donner vie à mes idées. Mon portfolio est aujourd’hui bien plus
+                                <p class="text-muted">"Kamdem a su donner vie à mes idées. Mon portfolio est aujourd’hui bien plus
                                     professionnel grâce à lui."</p>
                                 <h6 class="fw-bold mb-0">– Léa Singheu, designer</h6>
                             </div>
@@ -333,8 +380,8 @@
         </div>
         <div class="container-fluid" id="contact-section" >
             <div class="row">
-                <div class="col-md-7 col-sm-12" data-aos="fade-left" data-aos-duration="3000">
-                    <h1>CONTACT ME NOW !🧠</h1>
+                <div class="col-md-7 col-sm-12">
+                    <h1>CONTACT ME NOW !</h1>
                     <br>
                     <p>Je suis toujours ouvert à discuter de nouveaux projets,
                          d’idées créatives ou d’opportunités pour participer à vos visions.
@@ -359,7 +406,7 @@
                             <div class="spinner-border spinner-border-sm text-primary" role="status">
                                 <span class="visually-hidden">Envoi en cours...</span>
                             </div>
-                            <p class="mt-2 text-muted">Envoi en cours...</p>
+                            <p class="mt-2 text-white">Envoi en cours...</p>
                         </div>
                     </form>
                 </div>
@@ -369,15 +416,15 @@
                 </div>
             </div>
         </div>
-        <div class="row" id="footer">
-            <div class="col-md-4 col-sm-4 text-center" id="num-footer" data-aos="fade-up" data-aos-duration="3000">
-                <h6>Information</h6>
+        <div class="row" id="footer" data-aos="fade-up" data-aos-duration="2000">
+            <div class="col-md-4 col-sm-4 text-center mt-3" id="num-footer">
+                <h6>Informations</h6>
                 <hr>
                 <p>Kamdem Brice emmanuel</p>
                 <p>+237-691-362-532</p>
                 <p>Kamdembrice770@gmail.com</p>
             </div>
-            <div class="col-md-4 col-sm-4 text-center mb-3" id="links-footer" data-aos="fade-right" data-aos-duration="3000">
+            <div class="col-md-4 col-sm-4 text-center mb-3 mt-4" id="links-footer">
                 <h6>Liens rapides</h6>
                 <hr>
                 <a href="#aboutme">About me</a>
@@ -385,20 +432,19 @@
                 <a href="#projects">Projects</a>
                 <a href="#contact-section">Contact</a>
             </div>
-            <div class="col-md-4 col-sm-4 text-center mb-4" id="social-network" data-aos="fade-up" data-aos-duration="3000">
+            <div class="col-md-4 col-sm-4 text-center mb-4 mt-4" id="social-network">
                 <h6>My social networks</h6>
                 <hr>
-                <a href=""><i class="fab fa-x-twitter"></i></a>
-                <a href=""><i class="fab fa-facebook-square"></i></a>
-                <a href=""><i class="fab fa-youtube"></i></a>
-                <a href=""><i class="fab fa-whatsapp"></i></a>
-                <a href=""><i class="fab fa-telegram"></i></a>
+                <a href="https://x.com/Brisco267380" target="_blank"><i class="fab fa-x-twitter"></i></a>
+                <a href="https://www.facebook.com/brice.ismael.1" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://youtube.com/@bricekamdem-cu3zl?si=KPBpngDuH7n9ciPb" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://wa.me/237691362532" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://t.me/Kamdembrice" target="_blank"><i class="fab fa-telegram"></i></a>
                 <br><br>
-                <a href=""><i class="fab fa-tiktok"></i></a>
-                <a href=""><i class="fab fa-instagram"></i></a>
-                <a href=""><i class="fab fa-github"></i></a>
-                <a href=""><i class="fab fa-facebook-messenger"></i></a>
-                <a href=""><i class="fab fa-google"></i></a>
+                <a href="https://tiktok/com/@osagyefo" target="_blank"><i class="fab fa-tiktok"></i></a>
+                <a href="https://github.com/Brisco237" target="_blank"><i class="fab fa-github" target="_blank"></i></a>
+                <a href="https://www.facebook.com/brice.ismael.1" target="_blank"><i class="fab fa-facebook-messenger" target="_blank"></i></a>
+                <a href="mailto:kamdembrice770@gmail.com" target="_blank"><i class="fab fa-google"></i></a>
             </div>
             <hr>
             <h6 class="text-center" style="font-size:15px;font-weight:bold;">&copy; Tous droits réservés.kamdem Brice 2025.</h6>
@@ -406,7 +452,7 @@
     </div>
     <!--Popup ou Modal Bootstrap pour l'affichage de mes méssages d'érreur-->
     <!-- ✅ Modal de confirmation -->
-    <div class="modal fade text-center" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false" style="font-family:'Poppins';">
+    <div class="modal fade text-center" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -421,7 +467,7 @@
         </div>
     </div>
     <!-- Bouton retour en haut -->
-    <button onclick="topFunction()" id="btnTop" data-aos="fade-up" data-aos-duration="3000"><i class="fa-solid fa-arrow-up"></i></button>
+    <button onclick="topFunction()" id="btnTop"><i class="fa-solid fa-arrow-up"></i></button>
     <script>
         AOS.init();
     </script>
