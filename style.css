@@ -58,15 +58,13 @@ nav{
     background-color:rgb(10, 204, 204);
     padding: 15px;
 }
-@media(max-width:360){
+@media(max-width:300px) {
+    #aboutme-photo{
+        margin-top:50px;
+    }
     #home-section .btn-homesection{
         display: flex;
         flex-direction: column;
-    }
-}
-@media(max-width:320px) {
-    #aboutme-photo{
-        margin-top:50px;
     }
 }
 #home-section .btn-homesection a:hover, #contact-aboutme:hover{
