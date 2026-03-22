@@ -58,7 +58,7 @@ nav{
     background-color:rgb(10, 204, 204);
     padding: 15px;
 }
-@media(max-width:375px) {
+@media(max-width:425px) {
     #aboutme-photo{
         margin-top:50px;
     }
@@ -69,6 +69,7 @@ nav{
     #home-section .btn-homesection a{
         padding:10px;
         font-size:14px;
+        margin-top:2px;
     }
 }
 #home-section .btn-homesection a:hover, #contact-aboutme:hover{
